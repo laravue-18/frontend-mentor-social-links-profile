@@ -14,24 +14,24 @@
     font-style: normal;
 }
 
-html, body {
+body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 main {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background: var(--color-grey-900);
-    padding: 1.5rem;
 }
 
 .card {
     width: 19rem;
     padding: 2.5rem;
+    margin: 1.5rem;
     text-align: center;
     background: var(--color-grey-800);
     border-radius: 1rem;
